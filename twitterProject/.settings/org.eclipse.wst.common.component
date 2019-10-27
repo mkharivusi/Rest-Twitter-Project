@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="twitterProject">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="frontend_twitter.war" deploy-path="/" handle="module:/resource/frontend_twitter/frontend_twitter">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="backend_twitter.jar" deploy-path="/" handle="module:/resource/backend_twitter/backend_twitter">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="twitter4j-core-4.0.7.jar" deploy-path="/lib" handle="module:/classpath/lib/C:/Users/Administrator/Downloads/twitter4j-4.0.7/lib/twitter4j-core-4.0.7.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
